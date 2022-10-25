@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+   </head>
+  <body>
+    <!-- header  -->
+    <div class="header">
+      <h2>Travelsphere</h2>
+    </div>
+    <!-- header end  -->
+    <!-- slider starts here -->
+    <div class="items">
+      <a href="#" class="action left"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+      <div class="items">
+        <img src="5.jpg" alt="image_1" class="image active" width="100%"/>
+        <img src="6.jpg" alt="image_2" class="image" width= "100%"/>
+        <img src="7.jpg" alt="image_3" class="image" width="100%"/>
+      </div>
+      <a href="#" class="action right"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+    </div>
+    <!-- slider end  -->
+    <!-- youtube thumbnail  -->
+    <div class="cover">
+      <div class=" main-wrapper">
+        <div class="row video-wrapper">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="iframe-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YEok4Ykw204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="iframe-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hRpxiDCZj8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="iframe-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nkwLjnragtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+        </div>
+        <div class="row video-wrapper">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="iframe-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/y6E1L6KVwYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="iframe-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/35npVaFGHMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="iframe-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hasdCkzXrhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- video popup  -->
+    <div class="video-popup">
+      <div class="iframe-wrapper">
+        <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <span class="close-btn">&times</span>
+    </div>
+    <!-- video pop end  -->
+ <!-- youtube thumbnail end  -->
+ <div class="container">
+  <h1>REGISTER</h1>
+  <form id="registration_form" autocomplete="on">
+    <div>
+      <input type="text" id="form_fname" autocomplete="given-name" required>
+      <span class="error_form" id="fname_error_message"></span>
+      <label >First Name</label>
+    </div>
+    <div>
+      <input type="text" id="form_sname" autocomplete="family-name" required>
+      <span class="error_form" id="sname_error_message"></span>
+      <label >Last Name</label>
+    </div>
+    <div>
+      <input type="email" id="form_email" autocomplete="email" required>
+      <span class="error_form" id="email_error_message"></span>
+      <label id="email_id">Email Id</label>
+    </div>
+    <div>
+      <input type="password" id="form_password" autocomplete="new-password" required>
+      <span class="error_form" id="password_error_message"></span>
+      <label >Password</label>
+    </div>
+    <div>
+      <input type="password" id="form_retype_password" autocomplete="new-password" required>
+      <span class="error_form" id="retype_password_error_message"></span>
+      <label >Re-Enter Password</label>
+    </div><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  <!-- scroll up button html  -->
+  <div class="upbar">
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+</div>
+<!-- scroll up button html ends  -->
+<!-- footer  -->
+<div class="footer">&copy;<span id="year"> </span><span> Terrific Minds. 2022.</span></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
